@@ -17,8 +17,11 @@ const documentReady = () => {
     const partner = prompt('🥰 Dyme 2 naMe 🥰');
     heroTitle.innerHTML += partner + '♥';
 
-    heroButtonNo.addEventListener('click mouseover', evitarKMRompanMyBobo)
-    heroButtonSi.addEventListener('click', nowSomosNovios)  
+    
+    heroButtonNo.addEventListener('click', evitarKMRompanMyBobo);
+    heroButtonNo.addEventListener('mouseover', evitarKMRompanMyBobo);
+    heroButtonSi.addEventListener('click', nowSomosNovios);
+      
 };
 
 
