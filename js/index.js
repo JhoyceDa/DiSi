@@ -5,7 +5,7 @@ const documentReady = () => {
     const heroTitle = document.querySelector('.hero__title');
     const nowSomosNovios = () =>{
         alert('Now Somos Novios');
-        location.href = 'https://www.youtube.com/watch?v=lOD4tHz4A_8';
+        location.href = 'https://www.youtube.com/watch?v=3MGRbS7thr4';
     };
     
     const evitarKMRompanMyBobo = () =>{
