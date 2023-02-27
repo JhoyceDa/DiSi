@@ -13,9 +13,9 @@ const documentReady = () => {
         heroButtonNo.style.top = (Math.random() * innerHeight) + 'px';
         heroButtonNo.style.left = (Math.random() * innerWidth) + 'px';
     };
-    document.getElementsByClassName("hero").style.display = "none";
+    
     const partner = prompt('🥰 Dyme 2 naMe 🥰');
-    document.getElementsByClassName("hero").style.display = "flex";
+    document.getElementById("hero").style.display = "flex";
     heroTitle.innerHTML += partner + '♥';
 
     
