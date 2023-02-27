@@ -15,8 +15,13 @@ const documentReady = () => {
     };
     
     const partner = prompt('🥰 Dyme 2 naMe 🥰');
-    document.getElementById("hero").style.display = "flex";
-    heroTitle.innerHTML += partner + '♥';
+
+    if (partner.length > 0){
+        document.getElementById("hero").style.display = "flex";
+        heroTitle.innerHTML += partner + '♥';
+
+    };
+
 
     
     heroButtonNo.addEventListener('click', evitarKMRompanMyBobo);
